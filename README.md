@@ -10,7 +10,7 @@ If you rush this, or think of it as a test to be "passed", then you will already
 
 ## Description
 
-Slim Jenkins offers a vacation package for people who have always wanted to join a cattle driving team across the American Midwest.
+Slim Jenkins offers a vacation package for   people who have always wanted to join a cattle driving team across the American Midwest.
 
 He calls it the **Kansas Slim's Cattle Adventure**.
 
@@ -76,11 +76,11 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   The return value of hireDrovers will be assigned to const drovers.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   drover is the taco variable name assigned to each object being iterated over the drovers array that was created in the hireDrovers().
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+ (https://www.loom.com/share/33eb191bc250458c9bad486b3eb80bdd?sid=ef042425-3c96-4f17-a630-4bbf70e6bc84)
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -88,11 +88,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   This is declaring a variable name forestNumber, exit condition is when forestNumber is greater than the return value of createRivers() which is a random number between what its mulitplied by. its incrementing by 1 forestNumber. then it is pushing the string "forest" into the previously declared array assigned to journey.  
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   database is an object that is holding an array named cattleTypes with 4 objects inside that array. 
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   This is the parameter that is accepting a argument from where it is being called in main.js on line 6. the argument being passed to herdSize is cattleToDrive, which is declared on line 5 in main.js as the number 5. 
 
 ## When You Are Done
 
